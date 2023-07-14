@@ -17,7 +17,7 @@ let closeAlert = props.closeAlert
 
 </div>}
 
-    <button id="submitButton" className="btn btn-primary mt-2 mb-2 form-control" >
+    <button id="submitButton" className="btn btn-primary btn-sm mt-2 mb-2 form-control" >
             Submit
         </button><br/>
        fullName <input className="form-control is-invalid" id="validationServer01" onChange={(e)=>setNewStudentName(e.target.value)} required/><br/>

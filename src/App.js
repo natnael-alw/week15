@@ -89,11 +89,11 @@ const deleteStudent=(id)=>{
           {studentCreation&& <div className='alert alert-success fade in'></div>}
   <nav>
     <Link to={'/form'}> 
-    <button  className='btn btn-primary mt-2 mb-2' onClick={()=>createButtonDisplay()}>Create New Student</button>
+    <button  className='btn btn-primary btn-sm mt-2 mb-2' onClick={()=>createButtonDisplay()}>Create New Student</button>
 <br/>
     </Link>
     <Link to={'/'}> 
-  <button className='btn btn-success mt-2 mb-2'>Student List</button>
+  <button className='btn btn-success btn-sm mt-2 mb-2'>Student List</button>
     </Link>
     
     </nav>        
